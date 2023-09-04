@@ -1,4 +1,4 @@
-# grupo_5_ecommerce
+# DigitalTech
 
 ## Presentacion del Proyecto: 
 El sitio será un e-commerce de venta de insumos de computación. Como por ejemplo: teclados, mouse, cpu, monitor, auriculares, etc.
