@@ -25,3 +25,5 @@ Mi nombre es **Victoria Favre** soy de San Jeronimo Norte pero actualmente estoy
 Mi nombre es **Leilén Winkler** soy de Helvecia, Santa Fe. Actualmente me desempeño como docente en nivel secundario pero siempre me interesó la informática y programación, además me recibí de Front End Developer en Potrero Digital y ahora me encuentro haciendo el curso de Fullstack para complementar esos conocimientos y poder desempeñarme en algún momento como desarrolladora web.
 
 Mi nombre es **Franco Aguilar**, soy de Rafaela, Santa Fe, y actualmente estoy estudiando Ingeniería en Sistemas de Información en la UTN. Mi objetivo con este curso es aprender y desarrollarme en el mundo de la programación y el desarrollo web con la intención de aprovechar oportunidades laborales en este campo.
+
+Mi nombre es **Leandro Del Campo**. Soy de Paraná, Entre Ríos y hace años que vivo en Rosario. Actualmente me desempeño como jefe de cocina. Mi objetivo en este curso es poder capacitarme en el área del desorrollo web para poder cambiar de rubro y expandir mis horizontes.
