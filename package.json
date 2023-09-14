@@ -2,7 +2,7 @@
   "name": "grupo_5_digitaltech",
   "version": "1.0.0",
   "description": "El sitio será un e-commerce de venta de insumos de computación. Como por ejemplo: teclados, mouse, cpu, monitor, auriculares, etc.\r El público objetivo son jóvenes adultos que utilizan una computadora gran parte del día para jugar videojuegos y buscan mejorar o personalizar sus equipos informáticos. \r Para ajustarnos a ese público, el e-commerce ofrecerá todo los insumos necesarios para el ocio o el uso profesional, garantizando la optimización de su experiencia de juego. En el sitio se destacarán la funcionalidad y beneficios de los productos ofrecidos para facilitar la elección de los mismos a la hora de comprar.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
