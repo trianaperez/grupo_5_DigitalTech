@@ -1,0 +1,9 @@
+6. Página: carrito de compras
+Página donde el cliente puede visualizar su compra actual y proceder al pago.
+Historias de usuario
+★ Como cliente quiero poder acceder al detalle de mi carrito de compras en
+cualquier momento para finalizar la compra.
+★ Como cliente quiero poder modificar productos del carrito para poder eliminarlos
+de la compra o modificar la cantidad.
+Entregable: Archivo productCart.html (o similar) junto con todos los recursos
+necesarios, estilos de CSS e imágenes.
