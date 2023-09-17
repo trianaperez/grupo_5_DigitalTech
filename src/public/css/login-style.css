@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#logo {
+    font-size: 1.5em;
+}
+
+#search-bar input[type=text] {
+    padding: 5px;
+}
+
+#account, #cart {
+    margin-left: 20px;
+}
+
+#account i, #cart i {
+    margin-right: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#login-form form {
+    width: 300px;
+}
+
+#login-form label {
+    display: block;
+    margin-top: 20px;
+}
+
+#login-form input[type=text], #login-form input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#login-form input[type=submit] {
+    margin-top: 20px;
+}
+
+#image img {
+    max-width: 100%;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-links a {
+    color: white;
+    margin-right: 10px;
+}
+
+.social-media-icons i {
+    color: white;
+    margin-right: 10px;
+}
