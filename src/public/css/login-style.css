@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,34 +7,76 @@ body {
     background-color: #f5f5f5;
 }
 
+#logo img {
+    width: 70px; 
+    height: auto;
+} 
+
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide la cabecera en dos columnas */
+    align-items: center; /* Centra verticalmente los elementos */
     padding: 20px;
     background-color: #8C1E92;
     color: white;
 }
 
+#header-content {
+    display: flex;
+    align-items: center;
+}
+
 #logo img {
-    width: 70px; 
+    width: 70px;
     height: auto;
 }
 
-#search-bar input[type=text] {
-    padding: 5px;
-    width: 150%;
+#title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    margin-left: 20px; /* Agrega margen izquierdo para separar el logo y el título */
 }
 
-#account a, #cart a {
-    color: white; 
-    margin: 0 80px;
-
+#search-user-cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Coloca los elementos en el lado derecho */
 }
-#account, #cart {
+
+#search-bar {
+    flex-grow: 1; /* Utiliza todo el espacio disponible */
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Agrega margen derecho para separar la barra de búsqueda de los iconos */
+    border-radius: 25px; /* Aplica bordes redondeados */
+    background-color: white; /* Cambia el color de fondo a blanco */
+    padding: 10px; /* Añade relleno para ajustar el tamaño */
+}
+
+#search-bar input[type="text"] {
+    border: none; /* Elimina el borde predeterminado */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 5px; /* Ajusta el relleno interior */
+}
+
+#user-cart {
+    display: flex;
+    align-items: center;
+}
+
+button#account, button#cart {
+    background: none;
+    border: none;
     color: white;
-    margin: 0 80px;
-    padding: 0;
+    margin-left: 20px;
+    font-size: 1em; /* Ajusta el tamaño de los iconos a 1em o el tamaño deseado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
 }
+
+button#account:focus, button#cart:focus {
+    outline: none; /* Elimina el contorno al hacer clic en los botones */
+}
+
 
 
 main {
