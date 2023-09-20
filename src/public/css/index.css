@@ -15,7 +15,6 @@ header {
     display: flex;
     align-items: center;
     color: black;
-    /* Color del texto */
     padding: 10px 20px;
 }
 
@@ -28,11 +27,8 @@ header {
 
 .logo {
     width: 50px;
-    /* Define el tamaño del logo según tus necesidades */
     height: auto;
-    /* Mantiene la proporción original del logo */
     margin-right: 10px;
-    /* Agrega espacio entre el logo y el título */
 }
 
 .burger.menu {
@@ -60,9 +56,7 @@ header .form .input {
 
 .title {
     font-size: 24px;
-    /* Define el tamaño del título según tus necesidades */
     margin: 0;
-    /* Elimina el margen predeterminado del título */
 }
 
 /* Estilos para el contenedor del banner */
@@ -91,6 +85,63 @@ header .form .input {
     /* Mantiene la proporción original de las imágenes */
     scroll-snap-align: start;
     /* Define el punto de alineación */
+}
+
+
+/* Main */
+
+
+.most-sold {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+.most-sold h3 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+article {
+    width: calc(33.33% - 20px);
+    /* Ancho de cada artículo (33.33% del contenedor con un margen de 20px) */
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.description {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.discount {
+    color: #e74c3c;
+    margin-top: 5px;
 }
 
 
