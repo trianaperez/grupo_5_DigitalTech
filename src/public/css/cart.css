@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+/* Paleta de colores
+ /* {
+   color:  #8c1e92
+#cecece
+#38C7C2
+#E1B8E7
+#1B288A
+#000000
+#FFFFFF
+} */ 
+
 * {
     box-sizing: border-box;
 }
 html {
     width: 100vw;
 }
+
 
 img {
     width: 100%;
@@ -16,7 +28,6 @@ img {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    display: grid;
     grid-template-rows: auto 1fr auto; 
     min-height: 100vh; 
 }
@@ -101,12 +112,6 @@ button.account:focus, button.cart:focus {
     outline: none; 
 }
 
-main {
-    display: flex;
-    grid-template-columns: 1fr 1fr; 
-    padding: 20px;
-}
-
 .login-form {
     padding: 20px;
 }
@@ -116,8 +121,101 @@ main {
     height: 50vh;
     object-fit: cover; 
 }
+main {
+   width: 100vw;
+   height: 80vh;
+   padding: 5px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+}
+
+section span {
+    font-weight: bold;
+}
+
+section .items{
+    width: 75%;
+   
+}
+section .subtotal{
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+text-align: center; 
+}
+
+.product-subtotal{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product-pic{
+    width: 40px;
+    height: 40px;
+}
+
+main .product-details{
+    width: 40%;
+    font-size: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
+.amount{
+    width: 85px;
+    align-items: center;
+    font-size: 70%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+input.cart-items-amount{
+    width: 25px;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 4px;
+}
+
+
+
+h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.shipping, .cart-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 75px;
+}
+
+.buy-now {
+    color: white;
+    display: inline-block;
+    border: 3px solid #8c1e92;
+    border-radius: 8px;
+    background: #8c1e92;
+    text-align: center;
+    margin-left: 45%;
+}
 
 footer {
     margin: 0;
@@ -153,6 +251,5 @@ footer {
 
 .social-media-icons a {
     color: white;
-    display: ;
 }
 

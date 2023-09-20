@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu carrito</title>
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/cart.css">
     
@@ -37,11 +37,72 @@
                 </div>
             </div>
         </header>
-       
-   
+       <div class="subtitle">
+       <h2><i class="fas fa-shopping-cart"></i>    Tu carrito</h2>
+       </div>
     <main>
-        <h2><i class="fas fa-shopping-cart"></i>    Tu carrito</h2>
+        <section>
+            <div class="items">
+                <span>Productos</span>
+    
+                <div class="cart-item">
+                    <img class="product-pic" src="" alt="">
+                    <div class="product-details">
+                        <span class="product-name">Nombre del producto</span>
+                        <span class="cart-items-price">$$$$</span>
+                     </div>
+                        <div class="amount">
+                            <i class="fas fa-minus substract-product"></i>
+                            <input type="text" value="1" class="cart-items-amount" disabled>
+                            <i class="fas fa-plus"></i>
+                        <span class="delete">
+                            <i class="fas fa-trash"></i>
+                        </span>
+                    </div>
+                </div>
         
+                <div class="cart-item">
+                    <img class="product-pic" src="" alt="">
+                    <div class="product-details">
+                        <span class="product-name">Nombre del producto</span>
+                        <span class="cart-items-price">$$$$</span>
+                     </div>
+                        <div class="amount">
+                            <i class="fas fa-minus substract-product"></i>
+                            <input type="text" value="1" class="cart-items-amount" disabled>
+                            <i class="fas fa-plus"></i>
+                        <span class="delete">
+                            <i class="fas fa-trash"></i>
+                        </span>
+                    </div>
+                </div>
+    
+            </div>
+            
+            <div class="subtotal">
+                <span class="">Subtotal</span>
+                <div class="product-subtotal">
+                    <strong>$$$$</strong>
+                </div>
+                <div class="product-subtotal">
+                    <strong>$$$$</strong>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="shipping">
+            <h4>Envío</h4>
+            <span class="shipping-prince">$$$</span>
+        </div>
+
+        <div class="cart-total">
+            <h4>Tu total:</h4>
+            <span class="price-total">$$$$</span>
+        </div>
+        
+        <button class="buy-now" type="submit">Comprar</button>
+
     </main>
 
     <footer>
