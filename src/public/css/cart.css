@@ -127,7 +127,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content:space-between;
-    
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 
@@ -136,6 +139,8 @@ footer {
     padding: 0;
     margin-left: 20px; 
     margin-right: 20px; 
+    font-size: 20%;
+    width: 25%;
 }
 
 .footer-links-left a, .footer-links-right a {
@@ -144,6 +149,6 @@ footer {
 
 .social-media-icons a {
     color: white;
-    margin-right: 40px;
+   justify-content: space-around;
 }
 
