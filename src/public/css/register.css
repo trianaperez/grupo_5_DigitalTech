@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+    box-sizing: border-box;
+}
+html {
+    width: 100vw;
+}
+
+img {
+    width: 30%;
+}
+#logo img {
+    width: 70px; 
+    height: auto;
+} 
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; 
+    padding: 5px;
+    background-color: #8C1E92;
+    color: white;
+    height: 15vh;
+}
+
+.burger-menu{
+    color: white;
+    width: 5%;
+    height: auto;
+}
+
+div.logo{
+    width: 40%;
+}
+.logo img {
+    height: auto;
+} 
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 300%;
+    align-content: center;
+width: 85px; }
+
+.search-user-cart {
+    display: flex;
+    align-items: rigth;
+    justify-content: flex-end; 
+    height: 5vh;
+    box-sizing: border-box;
+    width: 20%;
+    
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 25px; 
+    background-color: white; 
+    padding: 1%; 
+    height: auto;
+    width: 60%;
+    color:#cecece;
+    font-size: 50%;
+}
+
+.search-bar input[type="text"] {
+    border: none; 
+    width: 90%; 
+    margin: 2px;
+     }
+
+.user-cart {
+    display: flex;
+    align-items: center;
+}
+
+button.account, button.cart {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1em; 
+    cursor: pointer;
+}
+
+button.account:focus, button.cart:focus {
+    outline: none; 
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.social-media-icons{
+   display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+.footer-links-left, .footer-links-right {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    font-size: 100%;
+    width: 10%;
+}
+
+.footer-links-left a, .footer-links-right a {
+    color: white;
+}
+
+.social-media-icons a {
+    color: white;
+   
+}
