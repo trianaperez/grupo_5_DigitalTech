@@ -133,7 +133,11 @@ footer {
     flex-wrap: nowrap;
 }
 
-
+.social-media-icons{
+   display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
 .footer-links-left, .footer-links-right {
     list-style-type: none;
     padding: 0;
@@ -149,6 +153,6 @@ footer {
 
 .social-media-icons a {
     color: white;
-   justify-content: space-around;
+    display: ;
 }
 
