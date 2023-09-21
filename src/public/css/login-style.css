@@ -14,8 +14,8 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Divide la cabecera en dos columnas */
-    align-items: center; /* Centra verticalmente los elementos */
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
     padding: 20px;
     background-color: #8C1E92;
     color: white;
@@ -34,32 +34,32 @@ header {
 #title {
     font-family: 'Orbitron', sans-serif;
     font-size: 24px;
-    margin-left: 20px; /* Agrega margen izquierdo para separar el logo y el título */
+    margin-left: 20px; 
 }
 
 #search-user-cart {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Coloca los elementos en el lado derecho */
+    justify-content: flex-end; 
 }
 
 #search-bar {
-    flex-grow: 1; /* Utiliza todo el espacio disponible */
+    flex-grow: 1; 
     display: flex;
     align-items: center;
-    margin-right: 20px; /* Agrega margen derecho para separar la barra de búsqueda de los iconos */
-    border-radius: 25px; /* Aplica bordes redondeados */
-    background-color: white; /* Cambia el color de fondo a blanco */
-    padding: 10px; /* Añade relleno para ajustar el tamaño */
+    margin-right: 20px; 
+    border-radius: 25px; 
+    background-color: white; 
+    padding: 10px;
 }
 
 #search-bar input[type="text"] {
-    border: none; /* Elimina el borde predeterminado */
-    width: 100%; /* Ocupa todo el ancho disponible */
-    padding: 5px; /* Ajusta el relleno interior */
+    border: none; 
+    width: 100%; 
+    padding: 5px;
 }
 
-#user-cart {
+.user-cart {
     display: flex;
     align-items: center;
 }
@@ -73,12 +73,6 @@ main {
 #image img {
     max-width: 100%;
 }
-  *, *:after, *:before {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    }
     body {
     min-height: 100vh;
     background-color: #fff;
