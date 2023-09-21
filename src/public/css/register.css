@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
+@media only screen and (max-width:  800px) {
+    .grid {
+    grid-template-columns: auto;
+    }
+    .izquierda{
+    order: 2;
+    padding: 20px;
+    }
+    .derecha {
+    order: 1;
+    }
+    .centrado {
+    align-items: flex-start;
+    }      
+    .no__overflow {
+    align-items: flex-start;
+    }
+    .img {
+    width: 100vw;
+    }
+    }
+    @media only screen and (max-height:  600px) {
+    .img {
+    width: 120%;
+    }
+    }
+    
 * {
     margin: 0;
     padding: 0;
@@ -77,8 +103,8 @@ body {
 }
 
 .form h2 {
-    font-family: "orbitron"; 
-    font-size: 23px;
+    font-family: "arial"; 
+    font-size: 30px;
     margin: 16px;
     text-align: center;
     color:#1B288A;
@@ -164,34 +190,6 @@ body {
                     box-shadow: 0 0 0 0.35rem #DAC5EE;
                     }
 
-@media only screen and (max-width:  800px) {
-    .grid {
-    grid-template-columns: auto;
-    }
-    .izquierda{
-    order: 2;
-    padding: 20px;
-    }
-    .derecha {
-    order: 1;
-    }
-    .centrado {
-    align-items: flex-start;
-    }      
-    .no__overflow {
-    align-items: flex-start;
-    }
-    .img {
-    width: 100vw;
-    }
-    }
-    @media only screen and (max-height:  600px) {
-    .img {
-    width: 120%;
-    }
-    }
-
-
 footer {
     margin: 0;
     padding: 0;
@@ -220,10 +218,10 @@ footer {
 }
 
 .footer-links-left a, .footer-links-right a {
-    color: white;
+    color: whitesmoke;
 }
 
 .social-media-icons a {
-    color: white;
+    color: whitesmoke;
    
 }
