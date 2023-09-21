@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 html {
@@ -48,6 +51,7 @@ div.logo{
 .title {
     font-family: 'Orbitron', sans-serif;
     font-size: 300%;
+    font-weight: bold;
     align-content: center;
 width: 85px; }
 
@@ -94,15 +98,57 @@ button.account, button.cart {
 }
 
 button.account:focus, button.cart:focus {
-    outline: none; 
+    outline: none;
+    }
+
+body {
+    background-image: url("../img/fondo_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
+.form h2 {
+    font-family: "orbitron"; 
+    font-size: 23px;
+    margin: 16px;
+    text-align: center;
+    color:#1B288A;
+
+}
+
+.form {
+    width: 400px;
+    background-color: #cecece;
+    background-position: right center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'orbitron';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.button {
+    width: 100%;
+    background: #1B288A;
+    border: none;
+    padding: 12px;
+    color:white;
+    margin:16px 0;
+    font-family: 'orbitron';
+    font-size: 16px;
+
+}
+
 
 footer {
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: black;
     color: white;
-    display: flex;
     align-items: center;
     justify-content:space-between;
     width: 100vw;
