@@ -91,13 +91,14 @@ header .form .input {
 /* Main */
 
 
-.most-sold {
-    background-color: #f4f4f4;
+.most-sold,
+.find-your-product {
     padding: 20px;
 }
 
 
-.most-sold h3 {
+.most-sold h3,
+.find-your-product {
     font-size: 24px;
     text-align: left;
     margin-bottom: 20px;
@@ -144,7 +145,38 @@ article {
     margin-top: 5px;
 }
 
+html {
+    background-color: #8c3b99;
+}
 
+/* Footer */
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.footer-links-left, .footer-links-right {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.footer-links-left a, .footer-links-right a {
+    color: white;
+}
+
+.social-media-icons a {
+    color: white;
+    margin-right: 40px;
+}
 
 @media (max-width: 767px) {
     .title {
