@@ -66,11 +66,12 @@ nav {
     color: #f5f5f5;
     padding: 5px;
     border: 2px;
+    height: 10vh;
 }
 
 nav a {
     color: white;
-    padding: 11px;
+    padding: 8px;
     border: 1px #A26ED4 solid;
     border-radius: 8px;
     text-decoration: none;
@@ -79,11 +80,11 @@ nav a {
 }
 
 div.logo {
-    width: 20%;
+    height: 9vh;
+    width: 9vh;
 }
 
 .logo img {
-    height: auto;
     filter: drop-shadow(1px 0 1px black);
     margin: 5px;
 }
@@ -140,7 +141,7 @@ button.cart {
     background: none;
     border: none;
     color: white;
-    font-size: 1em;
+    font-size: 2vh;
     cursor: pointer;
     filter: drop-shadow(1px 0 1px black);
 }
@@ -262,6 +263,7 @@ h2 {
     color: white;
     display: inline-block;
     border-radius: 8px;
+    border: 0px;
     padding: 8px;
     background: #A26ED4;
     text-align: center;
@@ -344,20 +346,18 @@ button:hover {
 @media (min-width:769px) {
     .header-content {
         width: 55%;
+        align-items: center;
     }
 
     div.logo {
-        width: 100px;
+        width: 9vh;
+        height: 9vh;
     }
 
     .title {
         font-size: 150%;
         width: 20%;
         text-align: center;
-    }
-
-    nav {
-        width: 55%;
     }
 
     .burger-menu {
@@ -371,10 +371,14 @@ button:hover {
         margin-right: 5%;
         margin-left: 5%;
     }
-
+    nav a {
+        font-size: 70%;
+        height: 6vh;
+    }
     .search-user-cart {
         width: 40%;
         justify-content: space-around;
+        align-items: center;
     }
 
     .user-cart {
