@@ -18,88 +18,56 @@ img {
 } 
 
 header {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    grid-template-columns: 1fr 1fr;
-    align-items: center; 
-    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide la cabecera en dos columnas */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px;
     background-color: #8C1E92;
     color: white;
-    height: 15vh;
 }
 
-.burger-menu{
-    color: white;
-    width: 5%;
-    height: auto;
-}
-
-div.logo{
-    width: 40%;
-}
-.logo img {
-    height: auto;
-} 
-
-.header-content {
+#header-content {
     display: flex;
     align-items: center;
-    width: 70%;
 }
 
-.title {
+#logo img {
+    width: 70px;
+    height: auto;
+}
+
+#title {
     font-family: 'Orbitron', sans-serif;
-    font-size: 300%;
-    font-weight: bold;
-    align-content: center;
-width: 85px; }
-
-.search-user-cart {
-    display: flex;
-    align-items: rigth;
-    justify-content: flex-end; 
-    height: 5vh;
-    box-sizing: border-box;
-    width: 20%;
-    
+    font-size: 24px;
+    margin-left: 20px; /* Agrega margen izquierdo para separar el logo y el título */
 }
 
-.search-bar {
-    flex-grow: 1;
+#search-user-cart {
     display: flex;
     align-items: center;
-    border-radius: 25px; 
-    background-color: white; 
-    padding: 1%; 
-    height: auto;
-    width: 60%;
-    color:#cecece;
-    font-size: 50%;
+    justify-content: flex-end; /* Coloca los elementos en el lado derecho */
 }
 
-.search-bar input[type="text"] {
-    border: none; 
-    width: 90%; 
-    margin: 2px;
-     }
+#search-bar {
+    flex-grow: 1; /* Utiliza todo el espacio disponible */
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Agrega margen derecho para separar la barra de búsqueda de los iconos */
+    border-radius: 25px; /* Aplica bordes redondeados */
+    background-color: white; /* Cambia el color de fondo a blanco */
+    padding: 10px; /* Añade relleno para ajustar el tamaño */
+}
 
-.user-cart {
+#search-bar input[type="text"] {
+    border: none; /* Elimina el borde predeterminado */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 5px; /* Ajusta el relleno interior */
+}
+
+#user-cart {
     display: flex;
     align-items: center;
 }
-
-button.account, button.cart {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1em; 
-    cursor: pointer;
-}
-
-button.account:focus, button.cart:focus {
-    outline: none;
-    }
 
 body {
     background-image: url("../img/fondo_1.jpg");
@@ -126,22 +94,102 @@ body {
     margin-top: 100px;
     border-radius: 4px;
     text-align: center;
-    font-family: 'orbitron';
+    font-family: 'arial';
     color: white;
     box-shadow: 7px 13px 37px #000;
 }
 
-.button {
+    input[id=Nombre], input[id=Email], input[id=Contraseña] {
     width: 100%;
-    background: #1B288A;
-    border: none;
-    padding: 12px;
-    color:white;
-    margin:16px 0;
-    font-family: 'orbitron';
+    padding: 12px 16px;
+    margin: 0px 0;
+    display: block;
+    border: 1px solid #c8c3cf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #F6F5F7;
     font-size: 16px;
+    color: #4F4659;
+    outline: none;
+    transition: box-shadow 0.25s ease-in-out,  background-image 0.25s;
+    }
 
-}
+    input[id=Nombre]:focus, input[id=Email]:focus, input[id=Contraseña]:focus {
+        border-color: #A26ED4;
+        background: #FAF8FD;
+        background: #FDFCFE;
+        box-shadow: 0 0 0 0.25rem #ebd6ff;
+        }
+
+        ::-webkit-input-placeholder {
+            color: #A29CA8;
+            }
+            :-ms-input-placeholder {
+            color: #A29CA8;
+            } ::placeholder {
+            color: #A29CA8;
+            }
+            .justificado{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px 0 26px 0;
+            }
+            .ya_esta_registrado {
+                color: #551A8B;
+                text-align: left;
+                outline-color: #B595D4;
+                }
+                .ya_esta_registrado:active {
+                color: #867992;
+                }
+            
+.boton_register {
+                    outline-color: #734E96;
+                    width: 100%;
+                    border: none;
+                    background-color: #A26ED4;
+                    padding: 13px 17px;
+                    color: #fff;
+                    border-radius: 0.25rem;
+                    font-size: 16px;
+                    cursor: pointer;
+                    transition: box-shadow 0.25s ease-in-out, background-color 0.3s;
+                    }
+.boton_register:hover {
+                    box-shadow: 0 0 0 0.25rem #DAC5EE;
+                    }
+.boton_register:active {
+                    background-color: #874DBF;
+                    box-shadow: 0 0 0 0.35rem #DAC5EE;
+                    }
+
+@media only screen and (max-width:  800px) {
+    .grid {
+    grid-template-columns: auto;
+    }
+    .izquierda{
+    order: 2;
+    padding: 20px;
+    }
+    .derecha {
+    order: 1;
+    }
+    .centrado {
+    align-items: flex-start;
+    }      
+    .no__overflow {
+    align-items: flex-start;
+    }
+    .img {
+    width: 100vw;
+    }
+    }
+    @media only screen and (max-height:  600px) {
+    .img {
+    width: 120%;
+    }
+    }
 
 
 footer {
