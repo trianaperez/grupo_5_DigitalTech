@@ -1,30 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@media only screen and (max-width:  800px) {
-    .grid {
-    grid-template-columns: auto;
-    }
-    .izquierda{
-    order: 2;
-    padding: 20px;
-    }
-    .derecha {
-    order: 1;
-    }
-    .centrado {
-    align-items: flex-start;
-    }      
-    .no__overflow {
-    align-items: flex-start;
-    }
-    .img {
-    width: 100vw;
-    }
-    }
-    @media only screen and (max-height:  600px) {
-    .img {
-    width: 120%;
-    }
-    }
     
 * {
     margin: 0;
@@ -96,7 +70,7 @@ header {
 }
 
 body {
-    background-image: url("../img/fondo_1.jpg");
+    background-image: url("../img/fondo2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -211,10 +185,11 @@ footer {
 .footer-links-left, .footer-links-right {
     list-style-type: none;
     padding: 0;
+    margin-top:25px;
     margin-left: 20px; 
     margin-right: 20px; 
-    font-size: 100%;
-    width: 10%;
+    font-size: 55%;
+    width: 80px;
 }
 
 .footer-links-left a, .footer-links-right a {
@@ -225,3 +200,30 @@ footer {
     color: whitesmoke;
    
 }
+
+@media only screen and (max-width:  800px) {
+    .grid {
+    grid-template-columns: auto;
+    }
+    .izquierda{
+    order: 2;
+    padding: 20px;
+    }
+    .derecha {
+    order: 1;
+    }
+    .centrado {
+    align-items: flex-start;
+    }      
+    .no__overflow {
+    align-items: flex-start;
+    }
+    .img {
+    width: 100vw;
+    }
+    }
+    @media only screen and (max-height:  600px) {
+    .img {
+    width: 120%;
+    }
+    }
