@@ -27,3 +27,7 @@ Mi nombre es **Leilén Winkler** soy de Helvecia, Santa Fe. Actualmente me desem
 Mi nombre es **Franco Aguilar**, soy de Rafaela, Santa Fe, y actualmente estoy estudiando Ingeniería en Sistemas de Información en la UTN. Mi objetivo con este curso es aprender y desarrollarme en el mundo de la programación y el desarrollo web con la intención de aprovechar oportunidades laborales en este campo.
 
 Mi nombre es **Leandro Del Campo**. Soy de Paraná, Entre Ríos y hace años que vivo en Rosario. Actualmente me desempeño como jefe de cocina. Mi objetivo en este curso es poder capacitarme en el área del desarrollo web para poder cambiar de rubro y expandir mis horizontes.
+
+
+**Planifición del Sprint 2**
+(https://trello.com/b/TLpQ4rZN/sprint-2) 
