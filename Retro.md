@@ -7,3 +7,22 @@ Consideramos que debemos organizarnos mejor en cuanto a cada tarea que debe real
 
 3. ¿Qué debemos continuar haciendo?
 Seguir trabajando en equipo, escucharnos entre todos, considerar las ideas de todos y cada uno seguir haciendo las tareas que les corresponden de la mejor manera.
+
+**Sprint 2**
+
+1. ¿Qué hicimos bien?
+Reunirnos para planificar qué tenemos que hacer y para trabajar.
+Ayudarnos cada vez que alguno tenia alguna dificultad.
+Dividirnos las tareas que debia hacer cada uno.
+
+2. ¿Qué debemos mejorar?
+colocarnos tiempos en los cuales debemos tener las tareas hechas.
+Reunirnos por lo menos una o dos veces por semana a programar como debemos seguir trabajando.
+
+
+3. ¿Qué debemos continuar haciendo?
+Estar en constante comunicación.
+Seguir reuniendonos por discord todos juntos para tomar disciones.
+Consultarnos las dudas que tenemos entre nosotros.
+Mostrar cada uno sus avances asi tenemos un hilo conductor. 
+>>>>>>> main
