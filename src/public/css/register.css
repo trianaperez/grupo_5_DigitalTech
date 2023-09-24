@@ -58,10 +58,25 @@ header {
     padding: 10px; /* Añade relleno para ajustar el tamaño */
 }
 
-#search-bar input[type="text"] {
+#search-bar input[type='text'] {
     border: none; /* Elimina el borde predeterminado */
     width: 100%; /* Ocupa todo el ancho disponible */
     padding: 5px; /* Ajusta el relleno interior */
+}
+
+#account,
+#cart {
+    background: transparent; 
+    border: none;
+    font-size: 25px;
+    margin: 5px;
+
+}
+
+.white-icon {
+    color: white;
+    background: none; 
+    border: none; 
 }
 
 #user-cart {
@@ -70,14 +85,14 @@ header {
 }
 
 body {
-    background-image: url("../img/fondo2.jpg");
+    background-image: url('../img/fondo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 .form h2 {
-    font-family: "arial"; 
+    font-family: 'arial'; 
     font-size: 30px;
     margin: 16px;
     text-align: center;
@@ -166,6 +181,7 @@ body {
 
 footer {
     margin: 0;
+    margin-top: 30%;
     padding: 0;
     background-color: black;
     color: white;
