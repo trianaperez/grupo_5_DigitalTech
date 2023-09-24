@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/* Paleta de colores
+ /* {
+   color:  #8c1e92
+#cecece
+#38C7C2
+#E1B8E7
+#1B288A
+#000000
+#FFFFFF
+#A26ED4
+
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+}
+
+
+img {
+    width: 100%;
+}
+h4{
+    color: #f5f5f5;
+    padding: 8px;
+    background:#A26ED4;
+    outline: #8C1E92;
+    border-radius: 8px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 5px;
+    background-color: #8C1E92;
+    color: white;
+    height: 10vh;
+}
+
+.burger-menu {
+    color: white;
+    width: 10%;
+    height: auto;
+    filter: drop-shadow(1px 0 1px black);
+}
+
+nav {
+    display: none;
+    color: #f5f5f5;
+    padding: 5px;
+    border: 2px;
+    height: 10vh;
+}
+
+nav a {
+    color: white;
+    padding: 8px;
+    border: 1px #A26ED4 solid;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+    background: #A26ED4;
+}
+
+div.logo {
+    height: 9vh;
+    width: 9vh;
+}
+
+.logo img {
+    filter: drop-shadow(1px 0 1px black);
+    margin: 5px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 100%;
+    width: 60%;
+    filter: drop-shadow(1px 0 1px black);
+    text-align: center;
+}
+
+.search-user-cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 5vh;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    padding: 1%;
+    height: auto;
+    width: 60%;
+    color: #cecece;
+    font-size: 50%;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    width: 90%;
+    margin: 2px;
+}
+
+.user-cart {
+    display: flex;
+    align-items: center;
+}
+
+button.account,
+button.cart {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2vh;
+    cursor: pointer;
+    filter: drop-shadow(1px 0 1px black);
+}
+
+button.account:focus,
+button.cart:focus {
+    outline: none;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    padding: 5px;
+    margin-bottom: 5vh;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+section span {
+    font-weight: bold;
+}
+
+section .items {
+    width: 75%;
+
+}
+
+section .subtotal {
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    text-align: center;
+}
+
+.product-subtotal {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product-pic {
+    width: 40px;
+    height: 40px;
+
+}
+
+main .product-details {
+    width: 40%;
+    font-size: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.amount {
+    width: 85px;
+    align-items: center;
+    font-size: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input.cart-items-amount {
+    width: 25px;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 4px;
+}
+
+
+
+h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(1px 0 0.5px black);
+}
+
+.shipping,
+.cart-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 75px;
+    font-weight: bold;
+}
+
+.shipping-price {
+    color: #38C7C2;
+}
+
+.buy-now {
+    width: 20%;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: 8px;
+    border: 0px;
+    padding: 8px;
+    background: #A26ED4;
+    text-align: center;
+    margin-left: 45%;
+    transition: box-shadow 0.25s ease-in-out, background-color 0.3s;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.footer-links-left,
+.footer-links-right {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20%;
+    width: 25%;
+}
+
+.footer-links-left a,
+.footer-links-right a {
+    color: white;
+}
+
+.social-media-icons a {
+    color: white;
+}
+
+a:hover {
+    background-color: #500b54;
+}
+
+button:hover {
+    background: #500b54;
+}
+
+/*tablet*/
+@media (min-width: 361px) {
+
+    header i {
+        font-size: 2em;
+    }
+
+    .product-pic {
+        width: 80px;
+        height: 80px;
+    }
+
+    .subtotal {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .cart-item {
+        justify-content: space-around;
+    }
+
+}
+
+/*desktop*/
+@media (min-width:769px) {
+    .header-content {
+        width: 55%;
+        align-items: center;
+    }
+
+    div.logo {
+        width: 9vh;
+        height: 9vh;
+    }
+
+    .title {
+        font-size: 150%;
+        width: 20%;
+        text-align: center;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    nav a {
+        font-size: 70%;
+        height: 6vh;
+    }
+    .search-user-cart {
+        width: 40%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .user-cart {
+        padding: 3%;
+    }
+
+    div.search-bar {
+        width: 30%;
+    }
+
+    main {
+        padding-left: 20px;
+    }
+    .product-details {
+        width: 60%;
+        font-size: 85%;
+    }
+
+    .shipping .cart-total {
+        justify-content: space-around;
+    }
+
+    div.items h4{
+        margin-left: 80px;
+    }
+    
+}
