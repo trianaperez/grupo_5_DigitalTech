@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/product.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./public/img/logo.png" alt="">
+        <nav>
+            <h1>Digital Tech</h1>
+
+            <input type="text" placeholder="  Search">
+
+            <span class="nav-icons">
+                <i class="fa-solid fa-circle-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product">        
+            <div class="container-img">
+            <img src="./public/img/8.png" alt="imagen-producto">
+        </div>
+
+        <div class="container-info-product">
+            <h2 class="product-name">Nombre del Producto</h2>
+            <div class="container-price">
+                <span>$95.00</span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Color</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="negro">Rojo</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="verde">Beige</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="size">Marca</label>
+                    <select name="size" id="size">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="Panasonic">Panasonic</option>
+                        <option value="Sonic">Sonic</option>
+                        <option value="Apple">Apple</option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-quantity">
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-solid fa-plus"></i>
+                    Añadir al carrito
+                </button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam iure provident atque
+                        voluptatibus reiciendis quae rerum, maxime placeat enim cupiditate voluptatum, temporibus quis
+                        iusto. Enim eum qui delectus deleniti similique? Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Sint autem magni earum est dolorem saepe perferendis repellat ipsam laudantium
+                        cum assumenda quidem quam, vero similique? Iusto officiis quod blanditiis iste?
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Información adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+
+
+
+        <section class="related-products">
+            <img src="./public/img/10.png" alt="" style="max-width: 100%;">
+            <img src="./public/img/9.png" alt="" style="max-width: 100%;">
+            <img src="./public/img/11.png" alt="" style="max-width: 100%;">
+        </section>
+    </main>
+    <footer>
+        <div class="footer-ops">
+            <a href="">Contacto</a>
+            <a href="">Sobre Nosotros</a>
+            <a href="">Preguntas Frecuentes</a>
+            <a href="">Dónde Estamos</a>
+        </div>
+
+        <div class="footer-contactos">
+            <div>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+
+            </div>
+            <p>Digital Tech</p>
+        </div>
+
+        <div class="footer-ops">
+            <a href="">Defensa al Consumidor</a>
+            <a href="">Términos de Servicio</a>
+            <a href="">Politicas de Reembolso</a>
+        </div>
+    </footer>
