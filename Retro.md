@@ -1,3 +1,5 @@
+**Sprint 1**
+
 1. ¿Qué hicimos bien?
 Elegimos una plataforma para realizar las tareas de manera que todos pudimos trabajar de manera colaborativa, intercambiando opiniones de como debia ser el sitio web que queriamos armar.
 Tambien consideramos que encontramos una muy buena manera de tomar desiciones, al tomar ideas distintas y luego decidir cual era la mejor mediante votaciones que haciamos por encuentas.
@@ -16,13 +18,26 @@ Ayudarnos cada vez que alguno tenia alguna dificultad.
 Dividirnos las tareas que debia hacer cada uno.
 
 2. ¿Qué debemos mejorar?
-colocarnos tiempos en los cuales debemos tener las tareas hechas.
+Colocarnos tiempos en los cuales debemos tener las tareas hechas.
 Reunirnos por lo menos una o dos veces por semana a programar como debemos seguir trabajando.
-
 
 3. ¿Qué debemos continuar haciendo?
 Estar en constante comunicación.
 Seguir reuniendonos por discord todos juntos para tomar disciones.
 Consultarnos las dudas que tenemos entre nosotros.
-Mostrar cada uno sus avances asi tenemos un hilo conductor. 
+Mostrar cada uno sus avances asi tenemos un hilo conductor.
+
+**Sprint 3**
+
+1. ¿Qué hicimos bien?
+Pudimos completar con las metas pactadas sorteando conflictos con horarios y responsabilidades que requerían atención de manera individual.
+Implementamos de manera efectiva conocimientos que fuimos afianzando durante el desarrollo del sprint.
+
+2. ¿Qué debemos mejorar?
+Abrir más canales de comunicación para solicitar ayuda o asesoramiento de ser necesario para afianzar los conceptos adquiridos necesarios para el desarrollo de nuestro proyecto.
+   
+3. ¿Qué debemos continuar haciendo?
+Participar activamente con la resolución de problemas y contratiemppos que puedan surgir de manera individual que comprometa al proyecto.
+Mantener la comunicación entre los miembros del grupo acerca de inquietudes o consultas sobre el proyecto por más que no se puedan crear una reunión en dónde coincidan todos los integrantes en tiempo y espacio.
+
 >>>>>>> main
