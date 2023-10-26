@@ -4,17 +4,17 @@
       "name": "memoria",
       "description": "Memoria 32gb 2x16 7000mhz Ddr5 Viper Venom Patriot",
       "image": "memoria.jpg",
-      "category": "algo",
-      "model": "modelo 1",
+      "category": "visited",
+      "model": "office",
       "price": "142.049" 
     },
     {
         "id": 2,
-        "name": "un monitor",
+        "name": "monitor",
         "description": "Monitor 24 Led Fhd 75hz Ips T350h Samsung",
         "image": "monitor.jpg",
         "category": "algo",
-        "model": "modelo 1",
+        "model": "gamer",
         "price": "$101.044" 
       },
       {
@@ -22,8 +22,8 @@
         "name": "mouse",
         "description": "Mouse G Pro X Superlight White Ligthspeed Logitech",
         "image": "mouse.jpg",
-        "category": "algo",
-        "model": "modelo 3",
+        "category": "in-sale",
+        "model": "gamer",
         "price": "300"
       },
       {
@@ -31,8 +31,8 @@
         "name": "placa-video",
         "description": "Placa De Video Evga Nvidia Geforce Rtx 2060 Sc Gaming 6gb",
         "image": "placa-video.jpg",
-        "category": "algo",
-        "model": "modelo 4",
+        "category": "visited",
+        "model": "gamer",
         "price": "333.083" 
       },
       {
@@ -40,8 +40,8 @@
         "name": "teclado",
         "description": "Teclado K70 Pro Mini Wireless 60 Rgb Mx Speed Us Black Corsair",
         "image": "teclado.jpg",
-        "category": "algo",
-        "model": "modelo 5",
+        "category": "in-sale",
+        "model": "gamer",
         "price": "500" 
       }
 ]

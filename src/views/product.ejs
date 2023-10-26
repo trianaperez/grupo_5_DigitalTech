@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <%- // include('../partials/head', {styles:['product', 'head']}) %>
+    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Product - DigitalTech </title>
@@ -11,7 +11,8 @@
 </head>
 
 <body>
-    <header>
+    <%- include('partials/header') %>
+    <!--<header>
         <img class="logo" src="images/logo.png" alt="">
         <nav>
             <h1>Digital Tech</h1>
@@ -24,12 +25,12 @@
 
             </span>
         </nav>
-    </header>
+    </header>-->
 
     <main>
         <section class="product">        
             <div class="container-img">
-            <img src="images/monitor.jpg" alt="imagen-producto">
+            <img src="images/monitor.jpg" alt="imagen-producto" class="-image">
         </div>
 
         <div class="container-info-product">
@@ -119,12 +120,13 @@
 
 
         <section class="related-products">
-            <img src="images/placa-video.jpg" alt="" style="max-width: 100%;">
-            <img src="images/mouse.jpg" alt="" style="max-width: 100%;">
-            <img src="images/teclado.jpg" alt="" style="max-width: 100%;">
+            <img src="images/placa-video.jpg" alt="" style="max-width: 100%;" class="image">
+            <img src="images/mouse.jpg" alt="" style="max-width: 100%;" class="image">
+            <img src="images/teclado.jpg" alt="" style="max-width: 100%;" class="image">
         </section>
     </main>
-    <footer>
+    <%- include('partials/footer') %>
+    <!--<footer>
         <%- // include('../partials/footer', {styles:['product', 'footer']}) %>
         <div class="footer-ops">
             <a href="">Contacto</a>
@@ -148,4 +150,4 @@
             <a href="">Términos de Servicio</a>
             <a href="">Politicas de Reembolso</a>
         </div>
-    </footer>
+    </footer>-->

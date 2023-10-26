@@ -17,6 +17,10 @@
     --color-seven:#000000;
 }
 
+.image{
+    width: 200px; 
+    height: 150px;
+}
 h1 {
     font-family: 'Orbitron', sans-serif;
     background-color: var(--color-four);
@@ -341,10 +345,11 @@ main {
 }
 
 .related-products img{
-    height: 100%;
+    height: 80%;
     width: 300px;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.527) 10px 5px 15px;
+    margin-right: 50px;
 }
 
 .related-products img:hover{

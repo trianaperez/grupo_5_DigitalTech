@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 <body>
-    <header>
+    <%- include('partials/header') %>
+    <!--<header>
         <div id="header-content">
             <div class="burger-menu">
                 <a href="#"><i class="fas fa-bars burger-menu"></i></a>
@@ -30,7 +31,7 @@
                 </button>
             </div>
         </div>
-    </header>
+    </header>-->
     <main>
         <div class="grid">
             <div class="izquierda centrado no__overflow">
@@ -63,7 +64,7 @@
         
     </main>
     <footer>
-        <%- // include('../partials/footer', {styles:['login', 'footer']}) %>
+        <%- include('partials/footer') %>
         <ul class="footer-links-left">
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Sobre nosotros</a></li>

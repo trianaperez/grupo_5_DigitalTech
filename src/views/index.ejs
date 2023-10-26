@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenidos a Digital Tech</title>
@@ -9,8 +9,10 @@
 
     <link rel="stylesheet" href="/css/index-style.css">
 </head>
+
 <body>
-    <header>
+    <%-  include('./partials/header', {styles:['index-style', 'header']}) %>
+    <!--<header>
 
         <div class="top-header">
 
@@ -35,7 +37,7 @@
             </div>
         </div>
 
-    </header>
+    </header>-->   
 
     <section>
         <div class="banner-container">
@@ -105,8 +107,8 @@
             </article>
         </div>
     </section>
-
-    <footer>
+    <%-  include('./partials/footer', {styles:['login', 'footer']}) %>
+    <!--<footer>
         <ul class="footer-links-left">
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Sobre nosotros</a></li>
@@ -125,6 +127,6 @@
             <li><a href="#">Términos de servicio</a></li>
             <li><a href="#">Políticas de reembolso</a></li>
         </ul>
-    </footer>
+    </footer>-->
 </body>
 </html>
