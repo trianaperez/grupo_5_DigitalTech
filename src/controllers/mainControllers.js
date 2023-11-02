@@ -1,17 +1,17 @@
 const controller = {
-    index(req, res){
+    index: (req, res) => {
         res.render('index');
     },
-    login(req,res) {
+    login: (req,res) =>{
         res.render('login');
     },
-    product(req,res) {
+    product: (req,res) =>{
         res.render('product');
     },
-    productCart(req,res) {
+    productCart: (req,res)=> {
         res.render('productCart');
     },
-    register(req,res) {
+    register: (req,res) =>{
         res.render('register');
     }
 };
