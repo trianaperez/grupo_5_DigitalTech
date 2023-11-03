@@ -14,39 +14,8 @@
 
 </head>
 <body>
-    <%- include('./partials/testHeader') %>
-        <!--<header>
-            <div class="header-content">
-                <div class="burger-menu">
-                    <a href="#"><i class="fas fa-bars burger-menu"></i></a>
-                </div>
-                
-                <div class="logo">
-                    <a href="/"><img src="\images\logo.png" alt="Logo"></a>
-                </div>
-                <div class="title">DigitalTech</div>
-                <nav>
-                    <a href="">Productos</a>
-                    <a href="">Marcas</a>
-                    <a href="">Preguntas frecuentes</a>
-                </nav>
-            </div>
-            <div class="search-user-cart">
-                <div class="search-bar">
-                    <input type="text" placeholder="Buscar...">
-                    <i class="fas fa-search"></i>
-                </div>
-                <div class="user-cart">
-                    <button class="account">
-                        <i class="fas fa-user"></i>
-                    </button>
-                    <button class="cart">
-                        <i class="fas fa-shopping-cart"></i>
-                    </button>
-                </div>
-            </div>
-        </header>-->
-
+    <%- include('./partials/header', {styles: ['cart']}) %>
+        
        <div class="subtitle">
        <h2><i class="fas fa-shopping-cart"></i>    Tu carrito</h2>
        </div>
@@ -114,28 +83,8 @@
         <button class="buy-now" type="submit">¡Comprar!</button>
 
     </main>
-    <%- include('./partials/footer') %>
-    <!--<footer>
-        <%- // include('../partials/footer', {styles:['productCart', 'footer']}) %>
-        <ul class="footer-links-left">
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Preguntas frecuentes</a></li>
-        </ul>
+    <%- include('./partials/footer', {styles: ['cart']}) %>
     
-        <div class="social-media-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-    
-        <ul class="footer-links-right">
-            <li><a href="#">Dónde estamos</a></li>
-            <li><a href="#">Defensa al consumidor</a></li>
-            <li><a href="#">Términos de servicio</a></li>
-            <li><a href="#">Políticas de reembolso</a></li>
-        </ul>
-    </footer>-->
 
 </body>
 </html>

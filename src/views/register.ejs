@@ -1,41 +1,8 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-    <%-  //include('../partials/head', {styles:['register', 'head']}) %> 
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>register - DigitalTech </title>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css' rel='stylesheet'>
-    <link rel='stylesheet' href='/css/register.css'>
-    <link href='https://fonts.googleapis.com/css2?family=Orbitron&display=swap' rel='stylesheet'>
-    
-</head>
+<%- include('./partials/head', {styles: ['register']}) %>
+
 <body>
-    <%- include('./partials/head) %>
-    <!--<header>
-        <div id='header-content'>
-            <div class='burger-menu'>
-                <a href='#'><i class='fas fa-bars burger-menu'></i></a>
-            </div>
-            <div id='logo'><img src='\img\logo_digitaltech.png' alt='Logo'></div>
-            <div id='title'>DigitalTech</div>
-        </div>
-        <div id='search-user-cart'>
-            <div id='search-bar'>
-                <input type='text' placeholder='Buscar...'>
-            </div>
-            <div id='user-cart'>
-                <button id='account'>
-                    <i class='fas fa-user white-icon'></i>
-                </button>
-                <button id='cart'>
-                    <i class='fas fa-cart-arrow-down white-icon'></i>
-                </button>
-            </div>
-        </div>
-    </header>-->
-    
-    <main>
+    <%- include('./partials/header', {styles: ['register']}) %>
+        <main>
 
         <section class='form'>
             <h2>¡Crea tú cuenta!</h2>
@@ -60,27 +27,6 @@
         </ul>
     </section>
     </main>
-    <%- include('./partials/footer') %>
-    <!--<footer>
-                <ul class='footer-links-left'>
-            <li><a href='#'>Contacto</a></li>
-            <li><a href='#'>Sobre nosotros</a></li>
-            <li><a href='#'>Preguntas frecuentes</a></li>
-        </ul>
-    
-        <div class='social-media-icons'>
-            <a href='#'><i class='fab fa-facebook-f'></i></a>
-            <a href='#'><i class='fab fa-instagram'></i></a>
-            <a href='#'><i class='fab fa-twitter'></i></a>
-        </div>
-    
-        <ul class='footer-links-right'>
-            <li><a href='#'>Dónde estamos</a></li>
-            <li><a href='#'>Defensa al consumidor</a></li>
-            <li><a href='#'>Términos de servicio</a></li>
-            <li><a href='#'>Políticas de reembolso</a></li>
-        </ul>
-    </footer>-->
-
-</body>
+    <%- include('./partials/footer', {styles: ['register']}) %>
+    </body>
 </html>

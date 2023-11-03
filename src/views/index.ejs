@@ -1,43 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a Digital Tech</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-
-    <link rel="stylesheet" href="/css/index-style.css">
-    
-</head>
+<%- include('./partials/head', {styles: ['index-style']}) %>
 
 <body>
-    <%- include('./partials/header') %>
-<!--<header>
-        <div class="top-header">
-
-            <div class="burger-menu">
-                <i class="fa fa-bars burger"></i>
-            </div>
-
-            <div class="logo-container">
-                <img src="/images/digitaltech-logo2.png" alt="Logo de DigitalTech" class="logo">
-                <h1 class="title">Digital Tech</h1>
-            </div>
-
-            <div class="form" action="#" method="GET">
-                <div class="input"><i class="fa fa-search"></i> Buscar productos, marcas y más</div>
-                <div class="submit"></div>
-            </div>
-        </div>
-
-        <div class="right-section">
-            <div class="left-icons">
-                <i class="fas fa-user-circle"></i><i class="fas fa-shopping-cart"></i>
-            </div>
-        </div>
-
-    </header> -->   
+    <%- include('./partials/header', {styles: ['index-style']}) %>
 
     <section>
         <div class="banner-container">
@@ -107,26 +71,6 @@
             </article>
         </div>
     </section>
-    <%- include('./partials/footer') %>
-    <!--<footer>
-        <ul class="footer-links-left">
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Preguntas frecuentes</a></li>
-        </ul>
-    
-        <div class="social-media-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-    
-        <ul class="footer-links-right">
-            <li><a href="#">Dónde estamos</a></li>
-            <li><a href="#">Defensa al consumidor</a></li>
-            <li><a href="#">Términos de servicio</a></li>
-            <li><a href="#">Políticas de reembolso</a></li>
-        </ul>
-    </footer>-->
-</body>
+    <%- include('./partials/footer', {styles: ['index-style']}) %>
+    </body>
 </html>

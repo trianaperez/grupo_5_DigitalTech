@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<%- include('./partials/head', {styles: ['product']}) %>
     
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Product - DigitalTech </title>
-    <link rel="stylesheet" href="/css/product.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-</head>
-
-<body>
-    <%-  include('./partials/header') %>
-    <!--<header>
-        <img class="logo" src="images/logo.png" alt="">
-        <nav>
-            <h1>Digital Tech</h1>
-
-            <input type="text" placeholder="  Search">
-
-            <span class="nav-icons">
-                <i class="fa-solid fa-circle-user"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-
-            </span>
-        </nav>
-    </header>-->
-
-
     <main>
         <section class="product">        
             <div class="container-img">
@@ -126,29 +98,4 @@
             <img src="images/teclado.jpg" alt="" style="max-width: 100%;" class="image">
         </section>
     </main>
-    <%- include('./partials/footer') %>
-    <!--<footer>
-        
-        <div class="footer-ops">
-            <a href="">Contacto</a>
-            <a href="">Sobre Nosotros</a>
-            <a href="">Preguntas Frecuentes</a>
-            <a href="">Dónde Estamos</a>
-        </div>
-
-        <div class="footer-contactos">
-            <div>
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-
-            </div>
-            <p>Digital Tech</p>
-        </div>
-
-        <div class="footer-ops">
-            <a href="">Defensa al Consumidor</a>
-            <a href="">Términos de Servicio</a>
-            <a href="">Politicas de Reembolso</a>
-        </div>
-    </footer>-->
+    <%-  include('./partials/footer', {styles:['product, 'footer']}) %>    
