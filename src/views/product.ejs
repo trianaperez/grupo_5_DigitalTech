@@ -1,5 +1,7 @@
 <%- include('./partials/head', {styles: ['product']}) %>
-    
+<body>
+    <%- include('./partials/header', {styles: ['product']}) %>
+   
     <main>
         <section class="product">        
             <div class="container-img">
@@ -98,4 +100,6 @@
             <img src="images/teclado.jpg" alt="" style="max-width: 100%;" class="image">
         </section>
     </main>
-    <%-  include('./partials/footer', {styles:['product, 'footer']}) %>    
+    <%- include('./partials/footer', {styles: ['product']}) %>
+</body>
+</html>
