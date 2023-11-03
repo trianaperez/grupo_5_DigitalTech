@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--color-four)   ;
+    /* background-color: var(--color-four)   ; */
 }
 
 :root{
@@ -355,7 +355,7 @@ main {
 .related-products img:hover{
     box-shadow: rgba(0, 0, 0, 0.784) 5px 5px 15px;
 }
-
+/* 
 footer {
     display: flex;
     align-items: center;
@@ -390,7 +390,7 @@ footer {
     color: black;
     font-size: xx-large;
     text-align: center;
-}
+} */
 
 @media screen and (max-width: 768px){
     .logo{

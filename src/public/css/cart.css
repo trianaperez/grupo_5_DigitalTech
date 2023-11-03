@@ -22,9 +22,9 @@ html {
 } 
 
 
-/* img {
+img {
     width: 100%;
-} */
+}
 h4{
     color: #f5f5f5;
     padding: 8px;
@@ -42,7 +42,7 @@ body {
     min-height: 100vh;
 }
 
-/* header {
+ /* header {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -52,8 +52,8 @@ body {
     background-color: #8C1E92;
     color: white;
     height: 10vh;
-}
-
+} */
+/*
 .burger-menu {
     color: white;
     width: 10%;
@@ -274,7 +274,7 @@ h2 {
     transition: box-shadow 0.25s ease-in-out, background-color 0.3s;
 }
 
-footer {
+/* footer {
     margin: 0;
     padding: 0;
     background-color: #333;
@@ -319,7 +319,7 @@ a:hover {
 
 button:hover {
     background: #500b54;
-}
+} */
 
 /*tablet*/
 @media (min-width: 361px) {

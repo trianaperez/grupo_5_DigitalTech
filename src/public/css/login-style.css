@@ -219,7 +219,7 @@ main {
     }
     }
 
-footer {
+/* footer {
     margin: 0;
     padding: 0;
     background-color: #333;
@@ -245,8 +245,8 @@ footer {
 .social-media-icons a {
     color: white;
     margin-right: 40px;
-}
-
+} */
+/* 
 i {
     font-size: 2em;
 }
@@ -263,4 +263,4 @@ i {
 .user-icon i {
     font-size: 64px; 
     color: gray;
-}
+} */

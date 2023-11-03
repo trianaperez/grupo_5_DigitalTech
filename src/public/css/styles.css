@@ -64,6 +64,9 @@ header {
     display: flex;
     align-items: center;
 }
+
+
+
 footer {
     margin: 0;
     padding: 0;
@@ -78,13 +81,19 @@ footer {
     flex-wrap: nowrap;
 }
 
+.social-media-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
 .footer-links-left,
 .footer-links-right {
     list-style-type: none;
     padding: 0;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 20%;
+    font-size: 1vw;
     width: 25%;
 }
 
@@ -92,3 +101,16 @@ footer {
 .footer-links-right a {
     color: white;
 }
+
+.social-media-icons a {
+    color: white;
+}
+
+a:hover {
+    background-color: #500b54;
+}
+
+button:hover {
+    background: #500b54;
+}
+
