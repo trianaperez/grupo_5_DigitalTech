@@ -1,0 +1,94 @@
+/* estilos comunes de los partials */
+#logo img {
+    width: 70px; 
+    height: auto;
+} 
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    padding: 20px;
+    background-color: #8C1E92;
+    color: white;
+}
+
+#header-content {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: 70px;
+    height: auto;
+}
+
+#title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    margin-left: 20px; 
+}
+
+#search-user-cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+#search-bar {
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+    border-radius: 25px; 
+    background-color: white; 
+    padding: 10px;
+}
+.white-icon {
+    color: white;
+    background: none; 
+    border: none; 
+}
+#account,
+#cart {
+    background: transparent; 
+    border: none; 
+}
+#search-bar input[type="text"] {
+    border: none; 
+    width: 100%; 
+    padding: 5px;
+}
+
+.user-cart {
+    display: flex;
+    align-items: center;
+}
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-links-left,
+.footer-links-right {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20%;
+    width: 25%;
+}
+
+.footer-links-left a,
+.footer-links-right a {
+    color: white;
+}

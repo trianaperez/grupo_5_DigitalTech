@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+/* header {
     background-color: #8C1E92;
     display: flex;
     justify-content: space-between;
@@ -16,15 +16,15 @@ header {
     align-items: center;
     color: black;
     padding: 10px 20px;
-}
+} */
 
-.logo-container {
-    display: flex;
+/* .logo-container { */
+    /* display: flex; */
     /* Utilizamos flexbox para alinear los elementos horizontalmente */
-    align-items: center;
+    /* align-items: center; */
     /* Centra verticalmente los elementos en el contenedor */
-}
-
+/* } */
+/* 
 .logo {
     width: 50px;
     height: auto;
@@ -57,7 +57,7 @@ header .form .input {
 .title {
     font-size: 24px;
     margin: 0;
-}
+} */
 
 /* Estilos para el contenedor del banner */
 .banner-container {

@@ -25,10 +25,10 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     background-color: var(--color-four);
 }
-.logo {
+/* .logo {
     width: auto;
     height: 100%;
-}
+} */
 body {
     font-family: Arial, sans-serif;
     max-width: 1200px;
@@ -36,7 +36,7 @@ body {
     background-color: var(--color-four);
     color: var(--color-seven);
     }
-
+/* 
 header {
     display: flex;
     align-items: center;
@@ -46,10 +46,10 @@ header {
 
     /* justify-content: center; */
 
-    height: 8vh;
+    /* height: 8vh;
     margin-bottom: 20px;
-}
-.nav-titulo{
+} */ */
+/* .nav-titulo{
     background-color:var(--color-four);
     height: 100%;
     display: flex;
@@ -81,7 +81,7 @@ header nav input{
 
 .nav-icons{
     font-size: x-large;
-}
+} */
 
 
 main {

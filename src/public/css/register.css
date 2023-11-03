@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-    
+
 * {
     margin: 0;
     padding: 0;
@@ -12,20 +12,20 @@ html {
 img {
     width: 30%;
 }
-#logo img {
-    width: 70px; 
+/* #logo img {
+    width: 70px;
     height: auto;
-} 
+}  */
 
-header {
+/* header {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Divide la cabecera en dos columnas */
-    align-items: center; /* Centra verticalmente los elementos */
-    padding: 20px;
+    /* align-items: center; Centra verticalmente los elementos */
+    /* padding: 20px;
     background-color: #8C1E92;
     color: white;
-}
-
+}  */
+/*
 #header-content {
     display: flex;
     align-items: center;
@@ -40,33 +40,33 @@ header {
     font-family: 'Orbitron', sans-serif;
     font-size: 24px;
     margin-left: 20px; /* Agrega margen izquierdo para separar el logo y el título */
-}
+/* }
 
 #search-user-cart {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Coloca los elementos en el lado derecho */
+    justify-content: flex-end; Coloca los elementos en el lado derecho
 }
 
 #search-bar {
-    flex-grow: 1; /* Utiliza todo el espacio disponible */
-    display: flex;
-    align-items: center;
-    margin-right: 20px; /* Agrega margen derecho para separar la barra de búsqueda de los iconos */
-    border-radius: 25px; /* Aplica bordes redondeados */
-    background-color: white; /* Cambia el color de fondo a blanco */
-    padding: 10px; /* Añade relleno para ajustar el tamaño */
-}
+    flex-grow: 1; *//* Utiliza todo el espacio disponible */
+    /* display: flex; */
+    /* align-items: center;
+    margin-right: 20px; Agrega margen derecho para separar la barra de búsqueda de los iconos */
+    /* border-radius: 25px; Aplica bordes redondeados */
+    /* background-color: white; Cambia el color de fondo a blanco */
+    /* padding: 10px; Añade relleno para ajustar el tamaño
+} */
 
-#search-bar input[type='text'] {
-    border: none; /* Elimina el borde predeterminado */
-    width: 100%; /* Ocupa todo el ancho disponible */
-    padding: 5px; /* Ajusta el relleno interior */
-}
+/* #search-bar input[type='text'] { */
+    /* border: none; Elimina el borde predeterminado */
+    /* width: 100%; Ocupa todo el ancho disponible */
+    /* padding: 5px; /* Ajusta el relleno interior */
+/* } */ 
 
-#account,
+/* #account,
 #cart {
-    background: transparent; 
+    background: transparent;
     border: none;
     font-size: 25px;
     margin: 5px;
@@ -75,14 +75,14 @@ header {
 
 .white-icon {
     color: white;
-    background: none; 
-    border: none; 
+    background: none;
+    border: none;
 }
 
 #user-cart {
     display: flex;
     align-items: center;
-}
+} */
 
 body {
     background-image: url('../img/fondo2.jpg');
@@ -92,7 +92,7 @@ body {
 }
 
 .form h2 {
-    font-family: 'arial'; 
+    font-family: 'arial';
     font-size: 30px;
     margin: 16px;
     text-align: center;
@@ -158,7 +158,7 @@ body {
                 .ya_esta_registrado:active {
                 color: #867992;
                 }
-            
+
 .boton_register {
                     outline-color: #734E96;
                     width: 100%;
@@ -202,8 +202,8 @@ footer {
     list-style-type: none;
     padding: 0;
     margin-top:25px;
-    margin-left: 20px; 
-    margin-right: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 55%;
     width: 80px;
 }
@@ -214,7 +214,7 @@ footer {
 
 .social-media-icons a {
     color: whitesmoke;
-   
+
 }
 
 @media only screen and (max-width:  800px) {
@@ -230,7 +230,7 @@ footer {
     }
     .centrado {
     align-items: flex-start;
-    }      
+    }
     .no__overflow {
     align-items: flex-start;
     }
