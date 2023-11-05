@@ -11,8 +11,8 @@ const controller = {
     product: (req,res) =>{
         res.render('product');
     },
-    productCart: (req,res)=> {
-        res.render('productCart');
+    cart: (req,res)=> {
+        res.render('cart');
     },
     register: (req,res) =>{
         res.render('register');
