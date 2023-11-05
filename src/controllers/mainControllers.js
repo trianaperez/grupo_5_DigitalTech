@@ -1,3 +1,6 @@
+const fs = require('fs');
+const productos = require('../data/products.json');
+
 const controller = {
     index: (req, res) => {
         res.render('index');
@@ -13,7 +16,15 @@ const controller = {
     },
     register: (req,res) =>{
         res.render('register');
-    }
+    },
+    /*createForm(req,res) {
+        res.render('createForm');
+    },
+    editForm(req,res) {
+        res.render('editForm');
+    }*/
 };
+
+
 
 module.exports = controller;

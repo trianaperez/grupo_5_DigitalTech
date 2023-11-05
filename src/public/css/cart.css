@@ -13,13 +13,13 @@
 
 } */
 
-* {
+ * {
     box-sizing: border-box;
 }
 
 html {
     width: 100vw;
-}
+} 
 
 
 img {
@@ -42,7 +42,7 @@ body {
     min-height: 100vh;
 }
 
-header {
+ /* header {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -52,8 +52,8 @@ header {
     background-color: #8C1E92;
     color: white;
     height: 10vh;
-}
-
+} */
+/*
 .burger-menu {
     color: white;
     width: 10%;
@@ -153,13 +153,13 @@ button.cart:focus {
 
 .login-form {
     padding: 20px;
-}
+} */
 
-.image img {
+/* .image img {
     max-width: 100%;
     height: 50vh;
     object-fit: cover;
-}
+} */
 
 main {
     width: 100vw;
@@ -274,7 +274,7 @@ h2 {
     transition: box-shadow 0.25s ease-in-out, background-color 0.3s;
 }
 
-footer {
+/* footer {
     margin: 0;
     padding: 0;
     background-color: #333;
@@ -319,7 +319,7 @@ a:hover {
 
 button:hover {
     background: #500b54;
-}
+} */
 
 /*tablet*/
 @media (min-width: 361px) {

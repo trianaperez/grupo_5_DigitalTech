@@ -1,41 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - DigitalTech </title>
-    <link rel="stylesheet" href="/css/login-style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-</head>
+<%- include('./partials/head', {styles: ['login-style']}) %>
 <body>
-    <header>
-        <div id="header-content">
-            <div class="burger-menu">
-                <a href="#"><i class="fas fa-bars burger-menu"></i></a>
-            </div>
-            <div id="logo"><img src="\img\logo_digitaltech.png" alt="Logo"></div>
-            <div id="title">DigitalTech</div>
-        </div>
-        <div id="search-user-cart">
-            <div id="search-bar">
-                <input type="text" placeholder="Buscar...">
-            </div>
-            <div id="user-cart">
-                <button id="account">
-                    <i class="fas fa-user white-icon"></i>
-                </button>
-                <button id="cart">
-                    <i class="fas fa-cart-arrow-down white-icon"></i>
-                </button>
-            </div>
-        </div>
-    </header>
-    <main>
+    <%- include('./partials/header', {styles: ['login-style']}) %>
+        <main>
         <div class="grid">
             <div class="izquierda centrado no__overflow">
                 <img class="img" src="../img/login.jpg" alt="imagen-login">
             </div>
-            <div class="derecha centrado">
+             <div class="derecha centrado">
                 <div class="login-form">
                     <div class="user-icon">
                         <i class="fas fa-user-circle"></i>
@@ -61,26 +32,6 @@
             </div>
         
     </main>
-    <footer>
-        <ul class="footer-links-left">
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Preguntas frecuentes</a></li>
-        </ul>
-    
-        <div class="social-media-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-    
-        <ul class="footer-links-right">
-            <li><a href="#">Dónde estamos</a></li>
-            <li><a href="#">Defensa al consumidor</a></li>
-            <li><a href="#">Términos de servicio</a></li>
-            <li><a href="#">Políticas de reembolso</a></li>
-        </ul>
-    </footer>
+    <%- include('./partials/footer', {styles: ['login-style']}) %>    
   </body>
 </html>
-
