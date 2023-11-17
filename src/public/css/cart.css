@@ -347,50 +347,6 @@ button:hover {
 
 /*desktop*/
 @media (min-width:769px) {
-    .header-content {
-        width: 55%;
-        align-items: center;
-    }
-
-    div.logo {
-        width: 9vh;
-        height: 9vh;
-    }
-
-    .title {
-        font-size: 150%;
-        width: 20%;
-        text-align: center;
-    }
-
-    .burger-menu {
-        display: none;
-    }
-
-    nav {
-        display: flex;
-        width: 60%;
-        justify-content: center;
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-    nav a {
-        font-size: 70%;
-        height: 6vh;
-    }
-    .search-user-cart {
-        width: 40%;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .user-cart {
-        padding: 3%;
-    }
-
-    div.search-bar {
-        width: 30%;
-    }
 
     main {
         padding-left: 20px;
