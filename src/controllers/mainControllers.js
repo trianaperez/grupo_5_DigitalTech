@@ -17,12 +17,12 @@ const controller = {
     register: (req,res) =>{
         res.render('register');
     },
-    /*createForm(req,res) {
+    createForm(req,res) {
         res.render('createForm');
     },
     editForm(req,res) {
         res.render('editForm');
-    }*/
+    }
 };
 
 
