@@ -1,12 +1,9 @@
 const express = require('express');
-const mainController = require('../controllers/mainControllers');
 const router = express.Router();
+const mainController = require('../controllers/mainControllers');
 
-router.get('/', mainController.index);
-router.get('/login', mainController.login);
 router.get('/product', mainController.product);
 router.get('/cart', mainController.cart);
-router.get('/register', mainController.register);
 router.get('/createForm', mainController.createForm);
 router.get('/editForm', mainController.editForm);
 
