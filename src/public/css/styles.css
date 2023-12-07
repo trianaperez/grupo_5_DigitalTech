@@ -101,6 +101,10 @@ nav a {
     background: #A26ED4;
 }
 
+.error {
+    color: rgb(154, 27, 27);
+    font-size: large;
+}
 
 footer {
     margin: 0;
@@ -141,9 +145,6 @@ footer {
     color: white;
 }
 
-a:hover {
-    background-color: #500b54;
-}
 
 button:hover {
     background: #500b54;

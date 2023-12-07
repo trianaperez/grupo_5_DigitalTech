@@ -236,7 +236,12 @@ input.cart-items-amount {
     padding-left: 4px;
 }
 
-
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(1px 0 0.5px black);
+}
 
 h2 {
     width: 100%;

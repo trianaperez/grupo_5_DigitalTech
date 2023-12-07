@@ -17,26 +17,6 @@ const controller = {
 		const inSale = products.filter(product => product.category === 'in-sale');
 		res.render('index', { visited, inSale });
 	},
-};
-
-
-const categories = [
-	{
-		id: 1,
-		value: 'in-sale',
-		model: 'office oferta'
-	},
-	{
-		id: 2,
-		value: 'visited',
-		model: 'gamer'
-	}
-];
-
-
-
-
-const control = {
 	index: (req, res) => {
 		res.render('products', { products: getProducts() });
 	},
@@ -58,7 +38,7 @@ const control = {
 
 	// Crear
 	create: (req, res) => {
-		res.render('create-form');
+		res.render('createForm');
 	},
 
 	// Almacenar
@@ -101,6 +81,22 @@ const control = {
 
 	}
 };
+
+
+const categories = [
+	{
+		id: 1,
+		value: 'in-sale',
+		model: 'office oferta'
+	},
+	{
+		id: 2,
+		value: 'visited',
+		model: 'gamer'
+	}
+];
+
+
 
 
 module.exports = controller;

@@ -99,6 +99,11 @@ body {
     color:#1B288A;
 
 }
+label{
+    font-weight: bold;
+    text-align: center;
+    color:#0d1553;
+}
 
 .form {
     width: 400px;
@@ -114,10 +119,10 @@ body {
     box-shadow: 7px 13px 37px #000;
 }
 
-    input[id=Nombre], input[id=Email], input[id=Contraseña] {
+    input{
     width: 100%;
     padding: 12px 16px;
-    margin: 0px 0;
+    margin: 2px;
     display: block;
     border: 1px solid #c8c3cf;
     border-radius: 4px;
@@ -129,7 +134,7 @@ body {
     transition: box-shadow 0.25s ease-in-out,  background-image 0.25s;
     }
 
-    input[id=Nombre]:focus, input[id=Email]:focus, input[id=Contraseña]:focus {
+    input[id=Nombre]:focus, input[id=lastname]:focus, input[id=Email]:focus, input[id=Contraseña]:focus, input[id=profilePic]:focus {
         border-color: #A26ED4;
         background: #FAF8FD;
         background: #FDFCFE;

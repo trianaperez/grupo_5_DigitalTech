@@ -3,24 +3,24 @@ const productos = require('../data/products.json');
 
 const controller = {
     index: (req, res) => {
+        res.locals.title = "¡Bienvenido a Digital Tech!"; 
         res.render('index');
     },
-    login: (req,res) =>{
-        res.render('login');
-    },
+    
     product: (req,res) =>{
+        res.locals.title = "Digital Tech"; 
+
         res.render('product');
     },
     cart: (req,res)=> {
-        res.render('cart');
+        res.locals.title = "Tu carrito"; 
+        res.render('productCart');
     },
-    register: (req,res) =>{
-        res.render('register');
-    },
-    createForm(req,res) {
+    
+    createForm:(req,res) => {
         res.render('createForm');
     },
-    editForm(req,res) {
+    editForm:(req,res) => {
         res.render('editForm');
     }
 };

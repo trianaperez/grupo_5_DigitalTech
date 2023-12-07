@@ -12,20 +12,23 @@
                         <i class="fas fa-user-circle"></i>
                     </div>
                     <i class="fa-regular fa-circle-user"></i>
-                    <input type="texto" id="usuario" name="usuario" placeholder="Usuario" autocomplete="off">
-                    <input type="clave" id="clave" name="clave" placeholder="Contraseña" autocomplete="off">
-                    <div class="justificado">   
-                        <span>
-                        <input type="checkbox" id="recordarme" name="recordarme" value="recordarme">
-                        <label for="recordarme" class="recordarme">Recordarme</label><br>
-                        </span>
-                        <a href="#" class="clave_olvidada">Olvidaste tu clave?</a>
-                    </div>
-                    <button type="submit" class="boton_login">Ingresar</button>
-                    <div class="registro">
-                        <label class="recordarme">
-                        No tenes Cuenta?</label><a href="#" class="clave_olvidada" style="text-decoration: none;"><strong>Registrate</strong></a>
-                    </div>
+                    <form action="/login" method="post">
+                            <input type="texto" id="usuario" name="user" placeholder="Usuario" autocomplete="off">
+                            <input type="clave" id="clave" name="password" placeholder="Contraseña" autocomplete="off">
+                                <div class="justificado">   
+                                <span>
+                            <input type="checkbox" id="recordarme" name="recordarme" value="recordarme">
+                           <label for="recordarme" class="recordarme">Recordarme</label><br>
+                           </span>
+                            <a href="#" class="clave_olvidada">Olvidaste tu clave?</a>
+                            </div>
+                            <button type="submit" class="boton_login">Ingresar</button>
+                            <div class="registro">
+                           <label class="recordarme">
+                            No tenes Cuenta?</label><a href="/register" class="clave_olvidada" style="text-decoration: none;"><strong>Registrate</strong></a>
+                             </div>                
+                    </form>
+                    
                 </div>
                 </div>
             

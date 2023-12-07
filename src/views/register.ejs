@@ -7,23 +7,44 @@
         <section class='form'>
             <h2>¡Crea tú cuenta!</h2>
         <ul type='None'>
-        <br> 
-        <li>  
-            <input type='text' id='Nombre' name='Nombre' placeholder='Nombre' autocomplete='off'>
-        </li></br>
-        <br>
-        <li> 
-            <input type='Email' id='Email' name='Email' placeholder='Email' autocomplete='off'>
-        </li></br>
-        <br>
-        <li>
-            <input type='password' id='Contraseña' name='Contraseña' placeholder='Contraseña' autocomplete='off'>
-        </li></br> 
-        <br>
-        <li>
-            <button type='submit' class='boton_register'>Registrar</button>
-        </li></br>
-        <p><a href='#' class='ya_esta_registrado'>Ya estoy registrado</a></p>
+            <br>
+            <% errors.forEach(error => {%>
+                <p class="error"> <%= error.msg %> </p>
+            <%})%>
+            <form action="/register" method="POST" enctype="multipart/form-data" >
+                        <li> 
+                            <label for="name">Nombre</label> 
+                            <input type='text' id='Nombre' name='name' placeholder='Nombre'>
+                        </li>
+                    </br>
+                        <li>  
+                            <label for="lastname">Apellido</label> 
+                            <input type='text' id='Nombre' name='lastname' placeholder='Apellido'>
+                        </li>
+                        <br>
+                        <li> 
+                            <label for="email">Correo electrónico</label> 
+                            <input type='Email' id='Email' name='email' placeholder='Email'>
+                        </li>
+                        <br>
+                        <li>
+                            <label for="password">Elegí tu contraseña</label> 
+                            <input type='password' id='Contraseña' name='password' placeholder='Contraseña'>
+                        </li>
+                        <br>
+                        <li>
+                            <label for="profilePic">Agregá una imagen de perfil</label> 
+                            <input type='file' id='profilePic' name='profilePic' placeholder='Foto de perfil'>
+                        </li>
+                        <br>
+                        <li>
+                            <button type='submit' class='boton_register'>Registrar</button>
+                        </li></br>
+
+            </form>
+         
+       
+        <p><a href='/login' class='ya_esta_registrado'>Ya estoy registrado</a></p>
         </ul>
     </section>
     </main>
