@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Usuario</title>
+</head>
+<body>
+    <form action="/user/create" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="text" placeholder="Nombre" name="firstName" value="<%= locals.oldData?.nombre && oldData?.firstname%>">
+            <% if(locals.errors?.nombre) { %>
+                <p><%= errors.firstName.msg %></p> 
+            <% } %>
+        </div>
+        <div>
+            <input type="text" placeholder="Apellido" name="lastName" value="<%= locals.oldData?.apellido && oldData?.lastname %>">
+            <% if(locals.errors?.apellido) { %>
+                <p><%= errors.lastName.msg %></p> 
+            <% } %>
+        </div>
+        <div>
+            <input type="text" placeholder="Email" name="email" value="<%= locals.oldData?.email && oldData?.lastname %>">
+            <% if(locals.errors?.email) { %>
+                <p><%= errors.email.msg %></p> 
+            <% } %>
+        </div>
+        <div>
+            <input type="text" placeholder="Contraseña" name="password" value="<%= locals.oldData?.password && oldData?.lastname %>">
+            <% if(locals.errors?.password) { %>
+                <p><%= errors.password.msg %></p> 
+            <% } %>
+        </div>
+        
+        <div>
+            <input type="file" name="img">
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
