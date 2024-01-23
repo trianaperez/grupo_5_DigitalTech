@@ -1,5 +1,6 @@
 const express = require('express');
 const mainController = require('../controllers/mainControllers');
+const usersControllers = require('../controllers/usersControllers');
 const { check } = require('express-validator');
 const router = express.Router();
 
@@ -13,9 +14,7 @@ router.get('/editForm', mainController.editForm);
 
 router.post('/login', [
     check('email').isEmail().withMessage('Dirección inválida'),
-    check('contraseña').isLength({min: 8}).withMessage('Mínimo de caracteres insuficientes')
-
-
-], usersControllers.proccesLogin);
+    check('contrasena').isLength({ min: 8 }).withMessage('Mínimo de caracteres insuficientes')
+], usersControllers.processLogin);
 
 module.exports = router;

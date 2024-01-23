@@ -5,8 +5,6 @@ const bcrypt = require('bcrypt');
 let {check, validationResult, body} = require('express-validator');
 const { error } = require('console');
 
-const { validationResult } = require('express-validator');
-
 //ESTO NO ANDA
 let usersControllers = {
     register: function(req, res) {
@@ -86,14 +84,6 @@ const logController = {
     }
 };
 
-
-
-
-
-
-
-const { validationResult } = require('express-validator');
-
 const controller = {
     index(req, res) {
         return res.render('user', { user: req.user });
@@ -113,4 +103,4 @@ const controller = {
     }
 };
 
-module.exports = controller;
+module.exports = usersControllers;
