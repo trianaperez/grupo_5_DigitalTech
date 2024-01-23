@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) =>{
     }else if (campoClave.value.lenght < 8){
             errores.push('La contraseña debe tener un mínimo de 8 caracteres')
         }
-    (errores.lenght>0){
+    (errores.lenght>0);{
         e.preventDefault();
 
         let ulErrores = document.querySelector('div.errores ul');
