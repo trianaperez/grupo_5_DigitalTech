@@ -1,41 +1,45 @@
 <%- include('./partials/head', {styles: ['login-style']}) %>
-<body>
-    <%- include('./partials/header', {styles: ['login-style']}) %>
-        <main>
-        <div class="grid">
-            <div class="izquierda centrado no__overflow">
-                <img class="img" src="../img/login.jpg" alt="imagen-login">
-            </div>
-             <div class="derecha centrado">
-                <div class="=errores">
-                    <ul></ul>
-                </div>
-                <div class="login-form">
-                    <div class="user-icon">
-                        <i class="fas fa-user-circle"></i>
+
+    <body>
+        <%- include('./partials/header', {styles: ['login-style']}) %>
+            <main>
+                <div class="grid">
+                    <div class="izquierda centrado no__overflow">
+                        <img class="img" src="/img/login.jpg" alt="imagen-login">
                     </div>
-                    <i class="fa-regular fa-circle-user"></i>
-                    <input type="texto" id="usuario" name="usuario" placeholder="Usuario" autocomplete="off">
-                    <input type="clave" id="clave" name="clave" placeholder="Contraseña" autocomplete="off">
-                    <div class="justificado">   
-                        <span>
-                        <input type="checkbox" id="recordarme" name="recordarme" value="recordarme">
-                        <label for="recordarme" class="recordarme">Recordarme</label><br>
-                        </span>
-                        <a href="#" class="clave_olvidada">Olvidaste tu clave?</a>
+                    <div class="derecha centrado">
+                        <div class="=errores">
+                            <ul></ul>
+                        </div>
+                        <form class="login-form" action="/login" method="post"> 
+                            <div class="user-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <i class="fa-regular fa-circle-user"></i>
+                            <input type="email" id="email" name="email" placeholder="Usuario" autocomplete="off">
+                            <input type="password" id="password" name="password" placeholder="Contraseña"
+                                autocomplete="off">
+                            <div class="justificado">
+                                <span>
+                                    <input type="checkbox" id="recordarme" name="recordarme" value="recordarme">
+                                    <label for="recordarme" class="recordarme">Recordarme</label><br>
+                                </span>
+                                <a href="#" class="clave_olvidada">Olvidaste tu clave?</a>
+                            </div>
+                            <button type="submit" class="boton_login">Ingresar</button>
+                            <div class="registro">
+                                <label class="recordarme">
+                                    No tenes Cuenta?</label><a href="#" class="clave_olvidada"
+                                    style="text-decoration: none;"><strong>Registrate</strong></a>
+                            </div>
+                        </form>
                     </div>
-                    <button type="submit" class="boton_login">Ingresar</button>
-                    <div class="registro">
-                        <label class="recordarme">
-                        No tenes Cuenta?</label><a href="#" class="clave_olvidada" style="text-decoration: none;"><strong>Registrate</strong></a>
-                    </div>
+
                 </div>
-                </div>
-            
-            </div>
-        
-    </main>
-    <%- include('./partials/footer', {styles: ['login-style']}) %>    
-  </body>
-  <script> src="/js/login.js"</script>
-</html>
+
+            </main>
+            <%- include('./partials/footer', {styles: ['login-style']}) %>
+    </body>
+    <script> src = "/js/login.js"</script>
+
+    </html>

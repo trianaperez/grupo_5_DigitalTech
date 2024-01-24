@@ -16,10 +16,10 @@ let usersControllers = {
     processLogin: function (req, res){
         let errors = validationResult(req);
         if (errors.isEmpty()){
-            // Agrega aquí la lógica para el inicio de sesión exitoso
+
             return res.redirect('/dashboard');
         } else {
-            return res.render('login', {errors: errors.errors});
+            return res.render('login', {errors: errors.mapped()});
         }
     }
 }; 
