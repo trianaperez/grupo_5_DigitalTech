@@ -6,7 +6,7 @@ const session = require('express-session');
 const bodyParser = require('body-parser');
 const { body, validationResult } = require('express-validator');
 const mainRoutes = require('./routes/main');
-
+const Sequelize = require('sequelize');
 const multer = require('multer');
 const upload = multer({dest: '/uploads'});
 
